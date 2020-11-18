@@ -1,0 +1,3 @@
+en el inicio del siguiente repositorio se podra encontrar hasta abajo las instrucciones para correr localmente el servidor
+
+https://github.com/Csanchezz/automatas-html-finder
