@@ -48,10 +48,6 @@ def upload_html():
 
 
 # Usage
-   
-
-
-
 @app.route("/", methods=["POST"])
 def upload_files():
 

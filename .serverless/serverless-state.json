@@ -163,7 +163,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/carlos-html-finder-api/csanchez/1605577616087-2020-11-17T01:46:56.087Z/carlos-html-finder-api.zip"
+                "S3Key": "serverless/carlos-html-finder-api/csanchez/1605661006624-2020-11-18T00:56:46.624Z/carlos-html-finder-api.zip"
               },
               "FunctionName": "carlos-html-finder-api-csanchez-app",
               "Handler": "wsgi_handler.handler",
@@ -186,14 +186,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersionuN7UdgkFvh7spPiyJidRwPDDKmqd6yFVjpIwilA": {
+          "AppLambdaVersionTObJLENqRtHQhEnCQO0jEu6Xil5dNNVtqFW7U3IjhmU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "wrm+1Eex2FQRGpq1MvsSWD/4wSbTt9jAx1r1uwFr9rA="
+              "CodeSha256": "cvY8t1cYIi/AgaMrdkeVRvnvs4wdWTmjopk1K4THk54="
             }
           },
           "ApiGatewayRestApi": {
@@ -312,7 +312,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1605577610260": {
+          "ApiGatewayDeployment1605660987869": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -372,7 +372,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersionuN7UdgkFvh7spPiyJidRwPDDKmqd6yFVjpIwilA"
+              "Ref": "AppLambdaVersionTObJLENqRtHQhEnCQO0jEu6Xil5dNNVtqFW7U3IjhmU"
             }
           },
           "ServiceEndpoint": {
@@ -500,7 +500,7 @@
         "timeout": 6,
         "runtime": "python3.6",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersionuN7UdgkFvh7spPiyJidRwPDDKmqd6yFVjpIwilA"
+        "versionLogicalId": "AppLambdaVersionTObJLENqRtHQhEnCQO0jEu6Xil5dNNVtqFW7U3IjhmU"
       }
     },
     "configValidationMode": "warn",
@@ -530,7 +530,7 @@
         ],
         "exclude": [],
         "artifact": "C:\\Users\\Csanc\\projects\\UNI\\automatas\\csanchezhtmlFinder\\.serverless\\carlos-html-finder-api.zip",
-        "artifactDirectoryName": "serverless/carlos-html-finder-api/csanchez/1605577616087-2020-11-17T01:46:56.087Z"
+        "artifactDirectoryName": "serverless/carlos-html-finder-api/csanchez/1605661006624-2020-11-18T00:56:46.624Z"
       },
       "layers": {
         "$ref": "$[\"service\"][\"layers\"]"
@@ -541,7 +541,7 @@
     "artifact": "C:\\Users\\Csanc\\projects\\UNI\\automatas\\csanchezhtmlFinder\\.serverless\\carlos-html-finder-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/carlos-html-finder-api/csanchez/1605577616087-2020-11-17T01:46:56.087Z",
+    "artifactDirectoryName": "serverless/carlos-html-finder-api/csanchez/1605661006624-2020-11-18T00:56:46.624Z",
     "artifact": "carlos-html-finder-api.zip"
   }
 }

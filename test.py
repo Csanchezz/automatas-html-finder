@@ -7,6 +7,7 @@ def get_html(new_str, info_back=True):
     # test_str = '<table class="table-bootstrap" name="tablename">Here will be the table</table> <a href="www.google.com" width="90px"> photo </a>'
     # print("The original string is : " + str(new_str)) 
     reg_str_v1 = '<(?![\/]).*?>*<.*?>'
+    
     reg_str_v2 = '<(?![\/]).*?>.*?'
 
 

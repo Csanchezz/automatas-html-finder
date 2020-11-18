@@ -1,6 +1,6 @@
-# Cognito integrado en AppSync
+# Html atributos e info
 
-Este es un ejemplo simple para conectar cognito con appsync de una manera automatizada para agilizar el mantenimiento por medio del framework ```serverless```
+Este es un ejemplo simple para levantar un servidor flask a aws usando ```serverless```
 
 ## Para Empezar
 
@@ -32,6 +32,28 @@ pip install -r requirements.txt (dentro del entorno virtual(virtualenv))
 
 
 Paso #3
+```
+python app.py 
+```
+aparecerá algo parecido a esto diciendo que el servidor se encuentra corriendo localmente en el puerto 5000
+
+
+```
+$ python app.py
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:5000/ (Press CTRL+C to quit)
+
+```
+ al cual se puede acceder en localhost:5000
+
+
+### o para subir a aws el servidor seria el siguiente comando
+
+
 ```
 sls deploy (en caso de que lo quiera subir a aws)
 ```
